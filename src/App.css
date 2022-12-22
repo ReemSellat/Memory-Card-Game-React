@@ -1,0 +1,41 @@
+body{
+  background-color:  rgb(184, 238, 255);
+  position: relative;
+  height:100vh;
+  width:100vw;
+  
+}
+
+#display h1{
+text-align: center;
+color:rgb(9, 1, 121);
+font-size: 40px;
+
+}
+#display h2{
+  margin-left: 80%;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  gap:10px;
+  padding: 10px;
+}
+.card{
+  text-align: center;
+  background-color: rgb(253, 107, 166);;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.card:hover{
+  box-shadow: 5px 5px 1px 1px gray;
+}
+img{
+  height: 320px;
+  border-radius: 15px;
+ 
+}
+.score{
+  margin-top: 10px;
+}
+
